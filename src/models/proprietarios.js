@@ -32,7 +32,7 @@ function getById(id) {
   return proprietarios.find((proprietarios) => proprietarios.id == id)
 }
 
-function insert(proprietarios) {
+function insert(proprietario) {
   const proprietarios = getAll()
 
   proprietario.id = getNextId()

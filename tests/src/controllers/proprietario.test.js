@@ -9,7 +9,7 @@ const path = './data/proprietariosControllerTest.json'
 
 jest.mock('../../../src/models/paths', () => {
   return {
-    PROPRIETARIO: path
+    PROPRIETARIOS: path
   }
 })
 
